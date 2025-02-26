@@ -1,0 +1,51 @@
+Foglio "Meta":
+-Piattaforma: Piattaforma dalla quale derivano i dati 
+-ID_Inserzioni: valore univoco che indica una precisa inserzione
+-ID_Cantiere: valore univoco specifico di un cantiere
+-Inizio: periodo di inizio di lavori nel cantiere 
+-validità: valore buleano che indica se i lavori sono ancora in corso o sono terminati per cantiere
+-impressioni: numero di persone che hanno visto l'inserzione
+-copertura: numero di persone che hanno cliccato sull'inserzione
+-CTR: rapporto tra le persone che hanno visto l'inserzione e il numero di persone che hanno cliccato sull'inserzione 
+-Risultati: ?
+-Budget: budget speso in quella giornata per la campagna
+-Spesa: il totale speso per la campagna
+-Zona: zona nella quale si trova il cantiere
+-Cantiere: nome del cantiere (es: Cantiere1, Cantiere2, Cantiere3, ...)
+-Città: Città nella quale si trova il cantiere
+-Tipologia Inserzione: specifica sul modo di "Trasmissione" dell'inserzione
+-Social: social media nel quale si è diffusa l'inserzione
+
+Foglio "Tabella_Cantgieri":
+-ID_cantiere: valore univoco specifico di un cantiere
+-Zona: zona nella quale si trova il cantiere
+-Nome Cantiere: nome del cantiere (es: Cantiere1, Cantiere2, Cantiere3, ...)
+-Capo Cantiere: Nome del capo cantiere responsabile 
+-Città: Città nella quale si trova il cantiere
+-Tipologia: tipo di edificio in costruzione nel cantiere
+-Garage: valore buleano per indicare se è presente o meno
+-Ascensore: valore buleano per indicare se è presente o meno
+-Giardino: valore buleano per indicare se è presente o meno
+-Posti auto: numero di posti auto presenti
+-Posizione: posizione dell'edificio (periferia o centro)
+-Unità: numero di unità abitative per struttura
+-M² Med: metratura quadra media 
+-M² Totali: metratura quadra totale dell'immobile
+-Classe En.: classe energetica dell'immobile
+-Prezzo/M²: prezzo al metro quadro
+-Prezzo Unità: prezzo per unità abitativa
+-Prezzo Totale: prezzo totale dell'immobile
+
+Foglio "Fact":
+-Data: periodo di inizio di lavori nel cantiere
+-ID_Inserzioni: valore univoco che indica una precisa inserzione
+-ID_Cantiere: valore univoco specifico di un cantiere
+-Contatti: numero di persone che hanno contattato in seguito alla visione dell'inserzione
+-Visite: numero di visite dell'immobile
+-Proposte: nomuero di proposte fatte per un'immobile
+-% Conv.: ?
+-Incasso Totale: incasso totale ricavato da un'immobile 
+-Adv/incassTot: rapporto tra il guadagno e l'ionvestimento in pubblicità 
+
+p.s.: 
+come potete notare il file è incompleto ho contiene informazioni sbagliate quindi se trovate un modo migliore per descrivere i dati o un modo per correggierli vi invito a farlo, vi ringrazio
