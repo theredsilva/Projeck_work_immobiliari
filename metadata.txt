@@ -8,8 +8,8 @@ Foglio "Meta":
 -copertura: numero di persone che hanno cliccato sull'inserzione
 -CTR: rapporto tra le persone che hanno visto l'inserzione e il numero di persone che hanno cliccato sull'inserzione 
 -Risultati: ?
--Budget: budget speso in quella giornata per la campagna
--Spesa: il totale speso per la campagna
+-Budget: budget speso in quella giornata per l'inserzione
+-Spesa: il totale speso per l'inserzione
 -Zona: zona nella quale si trova il cantiere
 -Cantiere: nome del cantiere (es: Cantiere1, Cantiere2, Cantiere3, ...)
 -Città: Città nella quale si trova il cantiere
